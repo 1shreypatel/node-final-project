@@ -154,4 +154,4 @@ const getMyPlayerProfileController = async (req, res) => {
     }
 };
 
-module.exports = {registerPlayerController,loginPlayerController,fetchingPlayerController,fetchingSingelPlayerController,editPlayerController,upsertPlayerProfileController,getMyPlayerProfileControlle};
+module.exports = {registerPlayerController,loginPlayerController,fetchingPlayerController,fetchingSingelPlayerController,editPlayerController,upsertPlayerProfileController,getMyPlayerProfileController};
