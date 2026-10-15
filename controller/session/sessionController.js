@@ -164,4 +164,4 @@ const getPlayerProgramProgressController = async (req, res) => {
     }
 };
 
-module.exports = {registerSessionController,loginSessionController,fetchingSessionController,fetchingSingelSessionController,editSessionController,toggleSessionProgressController,getPlayerProgramProgressControlle};
+module.exports = {registerSessionController,loginSessionController,fetchingSessionController,fetchingSingelSessionController,editSessionController,toggleSessionProgressController,getPlayerProgramProgressController};
