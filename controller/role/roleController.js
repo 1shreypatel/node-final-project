@@ -111,4 +111,4 @@ const editRoleController = async (req, res) => {
     }
 };
 
-module.exports = {registerRoleController,loginRoleController,fetchingRoleController,fetchingSingelRoleController,editRoleControlle};
+module.exports = {registerRoleController,loginRoleController,fetchingRoleController,fetchingSingelRoleController,editRoleController};
