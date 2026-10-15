@@ -1,5 +1,5 @@
 const express = require('express');
-const {registerPlayerController,loginPlayerController,fetchingPlayerController,fetchingSingelPlayerController,editPlayerController,upsertPlayerProfileController,getMyPlayerProfileControlle} = require('../../controller/player/playerController');
+const {registerPlayerController,loginPlayerController,fetchingPlayerController,fetchingSingelPlayerController,editPlayerController,upsertPlayerProfileController,getMyPlayerProfileController} = require('../../controller/player/playerController');
 const { verifyToken, authorizeRoles } = require('../../middleware/authMiddleware');
 const upload = require('../../middleware/uploadMiddleware');
 
