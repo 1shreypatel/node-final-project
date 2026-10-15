@@ -1,5 +1,5 @@
 const express = require('express');
-const {registerEnrollmentController,loginEnrollmentController,fetchingEnrollmentController,fetchingSingelEnrollmentController,editEnrollmentController,joinFreeProgramController,initiatePaidEnrollmentController,getMyEnrollmentsController,getCoachProgramEnrolledPlayersControlle} = require('../../controller/enrollment/enrollmentController');
+const {registerEnrollmentController,loginEnrollmentController,fetchingEnrollmentController,fetchingSingelEnrollmentController,editEnrollmentController,joinFreeProgramController,initiatePaidEnrollmentController,getMyEnrollmentsController,getCoachProgramEnrolledPlayersController} = require('../../controller/enrollment/enrollmentController');
 const { verifyToken, authorizeRoles } = require('../../middleware/authMiddleware');
 
 const router = express.Router();
