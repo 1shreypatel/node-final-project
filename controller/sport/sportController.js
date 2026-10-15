@@ -126,4 +126,4 @@ const deleteSportController = async (req, res) => {
     }
 };
 
-module.exports = {registerSportController,loginSportController,fetchingSportController,fetchingSingelSportController,editSportController,createSportController,getAllSportsController,updateSportController,deleteSportControlle};
+module.exports = {registerSportController,loginSportController,fetchingSportController,fetchingSingelSportController,editSportController,createSportController,getAllSportsController,updateSportController,deleteSportController};
