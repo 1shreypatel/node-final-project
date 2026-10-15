@@ -182,4 +182,4 @@ const getMeController = async (req, res) => {
     }
 };
 
-module.exports = {registerController,loginUserController,fetchingAuthController,fetchingSingelAuthController,editAuthController,getMeControlle};
+module.exports = {registerController,loginUserController,fetchingAuthController,fetchingSingelAuthController,editAuthController,getMeController};
