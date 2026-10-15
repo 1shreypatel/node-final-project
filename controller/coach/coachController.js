@@ -153,4 +153,4 @@ const getMyCoachProfileController = async (req, res) => {
 
 const getCoachProfileByIdController = fetchingSingelCoachController;
 
-module.exports = {registerCoachController,loginCoachController,fetchingCoachController,fetchingSingelCoachController,editCoachController,upsertCoachProfileController,getMyCoachProfileController,getCoachProfileByIdControlle};
+module.exports = {registerCoachController,loginCoachController,fetchingCoachController,fetchingSingelCoachController,editCoachController,upsertCoachProfileController,getMyCoachProfileController,getCoachProfileByIdController};
