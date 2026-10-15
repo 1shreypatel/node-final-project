@@ -1,5 +1,5 @@
 const express = require('express');
-const {registerCoachController,loginCoachController,fetchingCoachController,fetchingSingelCoachController,editCoachController,upsertCoachProfileController,getMyCoachProfileController,getCoachProfileByIdControlle} = require('../../controller/coach/coachController');
+const {registerCoachController,loginCoachController,fetchingCoachController,fetchingSingelCoachController,editCoachController,upsertCoachProfileController,getMyCoachProfileController,getCoachProfileByIdController} = require('../../controller/coach/coachController');
 const { verifyToken, authorizeRoles } = require('../../middleware/authMiddleware');
 const upload = require('../../middleware/uploadMiddleware');
 
