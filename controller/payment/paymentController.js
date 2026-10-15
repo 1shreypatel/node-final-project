@@ -185,4 +185,4 @@ const getMyPaymentHistoryController = async (req, res) => {
 
 const getAllPaymentsAdminController = fetchingPaymentController;
 
-module.exports = {registerPaymentController,loginPaymentController,fetchingPaymentController,fetchingSingelPaymentController,editPaymentController,processPaymentController,getMyPaymentHistoryController,getAllPaymentsAdminControlle};
+module.exports = {registerPaymentController,loginPaymentController,fetchingPaymentController,fetchingSingelPaymentController,editPaymentController,processPaymentController,getMyPaymentHistoryController,getAllPaymentsAdminController};
