@@ -1,5 +1,5 @@
 const express = require('express');
-const {registerPaymentController,loginPaymentController,fetchingPaymentController,fetchingSingelPaymentController,editPaymentController,processPaymentController,getMyPaymentHistoryController,getAllPaymentsAdminControlle} = require('../../controller/payment/paymentController');
+const {registerPaymentController,loginPaymentController,fetchingPaymentController,fetchingSingelPaymentController,editPaymentController,processPaymentController,getMyPaymentHistoryController,getAllPaymentsAdminController} = require('../../controller/payment/paymentController');
 const { verifyToken, authorizeRoles } = require('../../middleware/authMiddleware');
 
 const router = express.Router();
