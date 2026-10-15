@@ -179,4 +179,4 @@ const getCoachProgramEnrolledPlayersController = async (req, res) => {
     }
 };
 
-module.exports = {registerEnrollmentController,loginEnrollmentController,fetchingEnrollmentController,fetchingSingelEnrollmentController,editEnrollmentController,joinFreeProgramController,initiatePaidEnrollmentController,getMyEnrollmentsController,getCoachProgramEnrolledPlayersControlle};
+module.exports = {registerEnrollmentController,loginEnrollmentController,fetchingEnrollmentController,fetchingSingelEnrollmentController,editEnrollmentController,joinFreeProgramController,initiatePaidEnrollmentController,getMyEnrollmentsController,getCoachProgramEnrolledPlayersController};
