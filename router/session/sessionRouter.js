@@ -1,5 +1,5 @@
 const express = require('express');
-const {registerSessionController,loginSessionController,fetchingSessionController,fetchingSingelSessionController,editSessionController,toggleSessionProgressController,getPlayerProgramProgressControlle} = require('../../controller/session/sessionController');
+const {registerSessionController,loginSessionController,fetchingSessionController,fetchingSingelSessionController,editSessionController,toggleSessionProgressController,getPlayerProgramProgressController} = require('../../controller/session/sessionController');
 const { verifyToken, authorizeRoles } = require('../../middleware/authMiddleware');
 
 const router = express.Router();
