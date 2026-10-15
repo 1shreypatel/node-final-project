@@ -1,5 +1,5 @@
 const express = require('express');
-const {registerTrainingProgramController,loginTrainingProgramController,fetchingTrainingProgaramController,fetchingSingelTrainingProgramController,editTrainingProgramController,createProgramController,submitProgramForApprovalController,updateProgramController,deleteProgramController,getMyCoachProgramsController,reviewProgramController,getAllProgramsAdminController,browseApprovedProgramsController,getProgramByIdControlle} = require('../../controller/trainingProgram/trainingProgramController');
+const {registerTrainingProgramController,loginTrainingProgramController,fetchingTrainingProgaramController,fetchingSingelTrainingProgramController,editTrainingProgramController,createProgramController,submitProgramForApprovalController,updateProgramController,deleteProgramController,getMyCoachProgramsController,reviewProgramController,getAllProgramsAdminController,browseApprovedProgramsController,getProgramByIdController} = require('../../controller/trainingProgram/trainingProgramController');
 const { verifyToken, authorizeRoles } = require('../../middleware/authMiddleware');
 const upload = require('../../middleware/uploadMiddleware');
 
