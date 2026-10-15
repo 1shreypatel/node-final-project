@@ -153,4 +153,4 @@ const getProgramSessionsController = async (req, res) => {
     }
 };
 
-module.exports = {registerTrainingController,loginTrainingController,fetchingTrainingController,fetchingSingelTrainingController,editTrainingController,addSessionController,updateSessionController,deleteSessionController,reorderSessionsController,getProgramSessionsControlle};
+module.exports = {registerTrainingController,loginTrainingController,fetchingTrainingController,fetchingSingelTrainingController,editTrainingController,addSessionController,updateSessionController,deleteSessionController,reorderSessionsController,getProgramSessionsController};
