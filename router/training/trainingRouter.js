@@ -1,5 +1,5 @@
 const express = require('express');
-const {registerTrainingController,loginTrainingController,fetchingTrainingController,fetchingSingelTrainingController,editTrainingController,addSessionController,updateSessionController,deleteSessionController,reorderSessionsController,getProgramSessionsControlle} = require('../../controller/training/trainingContrroller');
+const {registerTrainingController,loginTrainingController,fetchingTrainingController,fetchingSingelTrainingController,editTrainingController,addSessionController,updateSessionController,deleteSessionController,reorderSessionsController,getProgramSessionsController} = require('../../controller/training/trainingContrroller');
 const { verifyToken, authorizeRoles } = require('../../middleware/authMiddleware');
 
 const router = express.Router();
