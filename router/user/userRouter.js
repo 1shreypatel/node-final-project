@@ -1,14 +1,5 @@
 const express = require('express');
-const {
-    registerUserController,
-    fetchingUserController,
-    fetchingSingelUserController,
-    editUserController,
-    getAllUsersController,
-    updateUserStatusController,
-    updateUserRoleController,
-    deleteUserController
-} = require('../../controller/user/userController');
+const {registerUserController,fetchingUserController,fetchingSingelUserController,editUserController,getAllUsersController,updateUserStatusController,updateUserRoleController,deleteUserController} = require('../../controller/user/userController');
 const { verifyToken, authorizeRoles } = require('../../middleware/authMiddleware');
 
 const router = express.Router();
